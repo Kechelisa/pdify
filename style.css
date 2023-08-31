@@ -1,0 +1,14 @@
+@keyframes gradientAnimation {
+    0%{
+        background:rgb(235, 177, 101);
+    }
+    50%{
+        background:rgb(255, 139, 6);
+    }
+    100% {
+        background:rgb(165, 106, 30);
+    }
+}
+body{
+    animation:gradientAnimation 5s infinite;
+}
